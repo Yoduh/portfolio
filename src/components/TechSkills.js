@@ -1,5 +1,8 @@
 import React from 'react';
 import { MDBTooltip } from "mdbreact";
+import Spin from 'react-reveal/Spin';
+import Fade from 'react-reveal/Fade';
+import ReactTooltip from "react-tooltip";
 
 import html from './images/icons/HTML5.svg';
 import css from './images/icons/CSS3.svg';
@@ -25,7 +28,8 @@ const skills = [
     {image: postgresql, tooltip: 'PostgreSQL'},
 ];
 
-
+const ConditionalSpinWrapper = ({ condition, wrapper, children }) => 
+        condition ? wrapper(children) : children;
 
 const TechSkills = ({bounds}) => {
     console.log(bounds);
@@ -62,22 +66,24 @@ const TechSkills = ({bounds}) => {
                     to   {  transform: rotate(360deg) translateX(${x}px) translateY(${y}px) rotate(-360deg); } }`);
                 
                 let style = {
-                    left: `${bounds.rect.left - bounds.margin + (bounds.width / 2) - 20}px`,  //(bounds.width + bounds.rect.left) / 2 - 20
+                    left: `${bounds.rect.left - bounds.leftMargin + (bounds.width / 2) - 20}px`,  //bounds.rect.left - bounds.margin + (bounds.width / 2) - 20
                     position: 'absolute',
-                    top: `${bounds.height / 2 - 20}px`,
+                    top: `${bounds.height / 2 + (bounds.rect.top - bounds.topMargin) - 20}px`, //bounds.height / 2 - 20
                     animation: `orbit${idx} 40s linear infinite`
                 };
                 return (
-                    <span style={style}>
-                        <MDBTooltip
-                            domElement
-                            tag="span"
-                            placement="top"
-                        >
+                    <div>
+                    <span style={style} data-tip={skill.tooltip}>
+
+                            <ConditionalSpinWrapper
+                                condition={skill.tooltip === "React"}
+                                wrapper={children => <Spin forever duration={20000}>{children}</Spin>}
+                            >
                             <img className="tech-icon" src={skill.image} alt={skill.tooltip}/>
-                            <span>{skill.tooltip}</span>
-                        </MDBTooltip>
+                            </ConditionalSpinWrapper>
                     </span>
+                    <ReactTooltip place="top" type="dark" effect="float"/>
+                    </div>
                 );
             })
         );

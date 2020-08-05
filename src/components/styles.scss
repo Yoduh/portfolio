@@ -15,6 +15,52 @@ body {
     width: 100vw;
     max-width: 100%;
     height: 100%;
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+}
+
+#navbar {
+    transition: top 0.3s;
+    background-color: #0B3C5D;
+}
+
+h1,
+.display-4 {
+    color: #35A1E9;
+}
+.header h1,
+.header .display-4 {
+    color: #E0E1DD;
+}
+.header-bar {
+    background-color: #35A1E9;
+}
+.nav-icon {
+    filter: invert(52%) sepia(92%) saturate(424%) hue-rotate(167deg) brightness(91%) contrast(100%);
+}
+strong {
+    color: #35A1E9;
+}
+
+// material ui form color override
+.email-send, .btn-outline-default, form, input, form .active, .btn-outline-default:focus {
+    color: #E0E1DD !important;
+}
+.btn-outline-default, .btn-outline-default, .btn-outline-default:focus {
+    border: 2px solid #E0E1DD !important;
+}
+.form-control:focus {
+    border-bottom: 1px solid #E0E1DD !important;
+    box-shadow: 0 1px 0 0 #E0E1DD !important;
+}
+.btn-outline-default:hover, .btn-outline-default:hover { 
+    color: #E0E1DD !important;
+    border: 2px solid #E0E1DD !important;
+    transform: scale(1.05, 1.05);
+}
+
+.footer {
+    background-color: #0B3C5D;
 }
 
 #topwrapper {
@@ -112,7 +158,6 @@ $shadows-big:    multiple-box-shadow(100); //100
 }
 
 .header {
-    color: white;
     align-self: center;
     display: flex;
     flex-direction: column;
@@ -146,14 +191,9 @@ $shadows-big:    multiple-box-shadow(100); //100
     100%  { transform: translateY(10px); }
 }
 
-.navbar {
-    background-color: #01015C;
+#navbar {
+    transition: top 0.3s;
 }
-// .sticky {
-//     position: fixed;
-//     top: 0;
-//     width: 100%;
-// }
 .nav-icon {
     width: 2rem;
 }
@@ -177,7 +217,8 @@ $shadows-big:    multiple-box-shadow(100); //100
 }
 .sticky {
     position: sticky;
-    z-index: 100;
+    top: 0px;
+    z-index: 102;
     width: 100%;
 }
 
@@ -185,7 +226,11 @@ $shadows-big:    multiple-box-shadow(100); //100
     display: flex;
     flex-direction: row;
 }
-
+.header-bar {
+    height: 2px;
+    width: 50vw;
+    margin: auto;
+}
 .me-card {
     width: 95%;
     flex-direction: row;
@@ -197,19 +242,10 @@ $shadows-big:    multiple-box-shadow(100); //100
     line-height: 24px;
 }
 
-.card-img-top {
-    border-radius: 50%;
-    width: 33%;
-    border: 3px solid #3b8692;
-}
-
 #headshot {
     border-radius: 9999px;
 }
 
-.subtitle {
-    border-bottom: 2px solid #3b8692;
-}
 .tech-icon-container {
     display: flex;
     z-index: 101;
@@ -222,6 +258,10 @@ $shadows-big:    multiple-box-shadow(100); //100
 .tech-icon:hover {
     opacity: 1;
     transform: scale(1.1);
+}
+
+.projects-wrapper {
+    margin-bottom: 30vh;
 }
 
 @keyframes rotate {

@@ -1,8 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {
-    MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
-    MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
-} from "mdbreact";
+    MDBNavbar, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import github from './images/icons/github.svg';
@@ -16,40 +14,23 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     }
 
+    // hide navbar when scrolling down. show if scrolling up
     useEffect(() => {
-        Events.scrollEvent.register('begin', function () {
-            console.log("begin", arguments);
-          });
-      
-          Events.scrollEvent.register('end', function () {
-            console.log("end", arguments);
-          });
+      var prev = window.pageYOffset;
+      window.onscroll = function() {
+        const currentScrollPos = window.pageYOffset;
+        if (prev > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-56px";
+        }
+        prev = currentScrollPos;
+      }
     }, [])
-    const scrollTo = () => {
-        scroller.scrollTo('scroll-to-element', {
-            duration: 800,
-            delay: 0,
-            smooth: 'easeInOutQuart'
-        })
-    }
-    // useEffect(() => {
-    //     window.scroll(function () {
-    //         //if you hard code, then use console
-    //         //.log to determine when you want the 
-    //         //nav bar to stick.  
-    //         console.log(window.scrollTop())
-    //       if (window.scrollTop() > 280) {
-    //         $('#navbar').addClass('navbar-fixed');
-    //       }
-    //       if (window.scrollTop() < 281) {
-    //         $('#navbar').removeClass('navbar-fixed');
-    //       }
-    //     });
-    // }, []);
 
     return (
     <Router>
-      <MDBNavbar color="indigo" dark expand="md" className="sticky">
+      <MDBNavbar id="navbar" dark expand="md" className="sticky">
         {/* <MDBNavbarBrand>
           <strong className="white-text">Navbar</strong>
         </MDBNavbarBrand> */}
@@ -79,9 +60,10 @@ const Navbar = () => {
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>
-              <a href="#github"><img src={github} className="nav-icon mx-1"/></a>
-              <a href="#linkedin"><img src={linkedin} className="nav-icon mx-1"/></a>
-              <a href="#resume"><img src={resume} className="nav-icon mx-1"/></a>
+              <a href="https://github.com/Yoduh"><img src={github} className="nav-icon mx-1"/></a>
+              <a href="https://www.linkedin.com/in/alex-handlovits/"><img src={linkedin} className="nav-icon mx-1"/></a>
+              <a href="https://drive.google.com/file/d/1TtbUHgV0eJlULC9BkydLZLSF2n3YNLVa/view?usp=sharing"><img src={resume} className="nav-icon mx-1"/></a>
+              {/* <Link to="/media/Handlovits_Resume.pdf" target="_blank" download>Download</Link> */}
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>
