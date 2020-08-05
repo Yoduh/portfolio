@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f77d7e9a2e62eb38e52026a15b7d334e",
+    "revision": "7c62dcb217835ffbdb1d81380f1584eb",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "08486985f63db4cbf459",
+    "revision": "aea8bd2a2c02e881b38a",
     "url": "/portfolio/static/css/2.693a94c7.chunk.css"
   },
   {
-    "revision": "13b44c1a4c91a4c98bce",
-    "url": "/portfolio/static/css/main.9da69d51.chunk.css"
+    "revision": "df60d1678398ce84c2f7",
+    "url": "/portfolio/static/css/main.1171f26e.chunk.css"
   },
   {
-    "revision": "08486985f63db4cbf459",
-    "url": "/portfolio/static/js/2.e21ef100.chunk.js"
+    "revision": "aea8bd2a2c02e881b38a",
+    "url": "/portfolio/static/js/2.f47af56f.chunk.js"
   },
   {
     "revision": "91fb7d83b7bbef5952067f4889f64e5b",
-    "url": "/portfolio/static/js/2.e21ef100.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.f47af56f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "13b44c1a4c91a4c98bce",
-    "url": "/portfolio/static/js/main.52965016.chunk.js"
+    "revision": "df60d1678398ce84c2f7",
+    "url": "/portfolio/static/js/main.a86bb24f.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -112,6 +112,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fa-solid-900.ee09ad75.woff"
   },
   {
+    "revision": "d49315a0ba45583204b232406925ebdb",
+    "url": "/portfolio/static/media/gelp.d49315a0.png"
+  },
+  {
     "revision": "76d344f08412543c74ccd1fb2493d607",
     "url": "/portfolio/static/media/github.76d344f0.svg"
   },
@@ -140,6 +144,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/postgresql.1f1b2ad2.svg"
   },
   {
+    "revision": "7b7b4f219a8d28e6c40ab3ce262be3ed",
+    "url": "/portfolio/static/media/rankhorror.7b7b4f21.png"
+  },
+  {
     "revision": "11a8f47e01fe816b8ef48fd9fd3bb810",
     "url": "/portfolio/static/media/react.11a8f47e.svg"
   },
@@ -150,5 +158,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee7e6621b7d3bf8ee80f6af67c71ef91",
     "url": "/portfolio/static/media/sqlite.ee7e6621.svg"
+  },
+  {
+    "revision": "b5ee81af783b67b0b93953b27a5c8d6f",
+    "url": "/portfolio/static/media/twitter.b5ee81af.png"
   }
 ]);
