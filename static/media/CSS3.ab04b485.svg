@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="CSS3.svg"
+   id="svg10"
+   version="1.1"
+   height="48px"
+   width="48px"
+   viewBox="0 0 48 48">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14">
+    <clipPath
+       id="clipPath26"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="5"
+         x="7"
+         height="37.974117"
+         width="33.997646"
+         id="rect28"
+         style="fill:#000000" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg10"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="12.785566"
+     inkscape:cx="24"
+     inkscape:zoom="17.708333"
+     showgrid="false"
+     id="namedview12"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <g
+     transform="matrix(1.2620951,0,0,1.2620819,-6.2837501,-6.2798214)"
+     clip-path="url(#clipPath26)"
+     id="g22">
+    <path
+       fill="#0277bd"
+       d="M 41,5 H 7 l 3,34 14,4 14,-4 z"
+       id="path2" />
+    <path
+       fill="#039be5"
+       d="M 24,8 V 39.9 L 35.2,36.7 37.7,8 Z"
+       id="path4" />
+    <path
+       fill="#ffffff"
+       d="M 33.1,13 H 24 v 4 h 4.9 l -0.3,4 H 24 v 4 h 4.4 l -0.3,4.5 -4.1,1.4 v 4.2 L 31.9,32.5 32.6,21 v 0 z"
+       id="path6" />
+    <path
+       fill="#eeeeee"
+       d="m 24,13 v 4 h -8.9 l -0.3,-4 z m -4.6,8 0.2,4 H 24 v -4 z m 0.4,6 h -4 l 0.3,5.5 7.9,2.6 v -4.2 l -4.1,-1.4 z"
+       id="path8" />
+  </g>
+</svg>

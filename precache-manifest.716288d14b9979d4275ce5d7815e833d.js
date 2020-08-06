@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7c62dcb217835ffbdb1d81380f1584eb",
+    "revision": "ac6075d69e44550151096d6349d809aa",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "aea8bd2a2c02e881b38a",
+    "revision": "53dfde0ed358b85ffe64",
     "url": "/portfolio/static/css/2.693a94c7.chunk.css"
   },
   {
-    "revision": "df60d1678398ce84c2f7",
-    "url": "/portfolio/static/css/main.1171f26e.chunk.css"
+    "revision": "e955f728d2bb37b18784",
+    "url": "/portfolio/static/css/main.da9413f7.chunk.css"
   },
   {
-    "revision": "aea8bd2a2c02e881b38a",
-    "url": "/portfolio/static/js/2.f47af56f.chunk.js"
+    "revision": "53dfde0ed358b85ffe64",
+    "url": "/portfolio/static/js/2.7723fd03.chunk.js"
   },
   {
     "revision": "91fb7d83b7bbef5952067f4889f64e5b",
-    "url": "/portfolio/static/js/2.f47af56f.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.7723fd03.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "df60d1678398ce84c2f7",
-    "url": "/portfolio/static/js/main.a86bb24f.chunk.js"
+    "revision": "e955f728d2bb37b18784",
+    "url": "/portfolio/static/js/main.e97fd640.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
     "url": "/portfolio/static/js/runtime-main.209c2d7e.js"
   },
   {
-    "revision": "0a9813fcf60fb6dd059aeacbd503980f",
-    "url": "/portfolio/static/media/CSS3.0a9813fc.svg"
+    "revision": "ab04b485e3dadd9cc682f2096d509e4e",
+    "url": "/portfolio/static/media/CSS3.ab04b485.svg"
   },
   {
-    "revision": "f0538c1da3ce93f0c9e0ab96a8710f47",
-    "url": "/portfolio/static/media/HTML5.f0538c1d.svg"
+    "revision": "f618641c78751b81086e2cd729ddb296",
+    "url": "/portfolio/static/media/HTML5.f618641c.svg"
   },
   {
-    "revision": "d3304b833b96ca9b6b4d4f12d07d7176",
-    "url": "/portfolio/static/media/JS.d3304b83.png"
+    "revision": "0de10b87d13e0cf0c3ecebc0961f8292",
+    "url": "/portfolio/static/media/JS.0de10b87.svg"
   },
   {
     "revision": "11911410dca2de148f30954eb2fd5eab",
