@@ -57,7 +57,9 @@ const AboutMe = () => {
         </MDBRow>
         <MDBRow className="mt-5">
             <MDBCol md="6" className="d-flex align-items-center justify-content-center p-0">
-                <img src={headshot} alt="headshot" id="headshot" ref={headshotRef} className="p-5" />
+                <Fade delay={2200} duration={2000}>
+                    <img src={headshot} alt="headshot" id="headshot" ref={headshotRef} className="p-5" />
+                </Fade>
                 <TechSkills bounds={headshotRect}/>
             </MDBCol>
             <MDBCol md="6" className="p-0">

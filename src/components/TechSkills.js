@@ -1,5 +1,4 @@
 import React from 'react';
-import { MDBTooltip } from "mdbreact";
 import Spin from 'react-reveal/Spin';
 import Fade from 'react-reveal/Fade';
 import ReactTooltip from "react-tooltip";
@@ -7,7 +6,7 @@ import ReactTooltip from "react-tooltip";
 import html from './images/icons/HTML5.svg';
 import css from './images/icons/CSS3.svg';
 import jquery from './images/icons/jquery.svg';
-import js from './images/icons/JS.png';
+import js from './images/icons/JS.svg';
 import mongodb from './images/icons/mongodb.svg';
 import nodejs from './images/icons/nodejs.svg';
 import postgresql from './images/icons/postgresql.svg';
@@ -69,18 +68,20 @@ const TechSkills = ({bounds}) => {
                     left: `${bounds.rect.left - bounds.leftMargin + (bounds.width / 2) - 20}px`,  //bounds.rect.left - bounds.margin + (bounds.width / 2) - 20
                     position: 'absolute',
                     top: `${bounds.height / 2 + (bounds.rect.top - bounds.topMargin) - 20}px`, //bounds.height / 2 - 20
-                    animation: `orbit${idx} 40s linear infinite`
+                    animation: `orbit${idx} 40s linear infinite`,
+                    opacity: 0.8
                 };
                 return (
                     <div>
                     <span style={style} data-tip={skill.tooltip}>
-
-                            <ConditionalSpinWrapper
-                                condition={skill.tooltip === "React"}
-                                wrapper={children => <Spin forever duration={20000}>{children}</Spin>}
-                            >
-                            <img className="tech-icon" src={skill.image} alt={skill.tooltip}/>
-                            </ConditionalSpinWrapper>
+                            <Fade delay={200 * idx} duration={3000}>
+                                <ConditionalSpinWrapper
+                                    condition={skill.tooltip === "React"}
+                                    wrapper={children => <Spin forever duration={20000}>{children}</Spin>}
+                                >
+                                <img className="tech-icon" src={skill.image} alt={skill.tooltip}/>
+                                </ConditionalSpinWrapper>
+                            </Fade>
                     </span>
                     <ReactTooltip place="top" type="dark" effect="float"/>
                     </div>

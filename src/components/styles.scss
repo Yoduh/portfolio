@@ -253,7 +253,6 @@ $shadows-big:    multiple-box-shadow(100); //100
 .tech-icon-wrapper, .tech-icon {
     height: 2.5em;
     width: 2.5em;
-    opacity: 0.8;
 }
 .tech-icon:hover {
     opacity: 1;
@@ -277,6 +276,38 @@ $shadows-big:    multiple-box-shadow(100); //100
         transform: translateY(0rem);
     }
 }
+@-webkit-keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+              transform: translate3d(0, 100%, 0);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+              transform: translate3d(0, 100%, 0);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInDerp {
+    -webkit-animation-name: fadeInUp;
+            animation-name: fadeInUp;
+            animation-fill-mode:forwards;
+            animation-duration: 4s;
+  }
 
 @include media-breakpoint-up(xs) {
     .display-1 {

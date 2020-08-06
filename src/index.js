@@ -9,3 +9,5 @@ ReactDOM.render(
   <App />,
   document.getElementById('root')
 );
+
+// deploy with command 'npm run deploy'

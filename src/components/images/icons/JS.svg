@@ -8,14 +8,14 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="CSS3.svg"
-   id="svg10"
+   sodipodi:docname="JS.svg"
+   id="svg14"
    version="1.1"
-   height="48px"
-   width="48px"
+   height="144px"
+   width="144px"
    viewBox="0 0 48 48">
   <metadata
-     id="metadata16">
+     id="metadata20">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -26,29 +26,17 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs14">
-    <clipPath
-       id="clipPath26"
-       clipPathUnits="userSpaceOnUse">
-      <rect
-         y="5"
-         x="7"
-         height="37.974117"
-         width="33.997646"
-         id="rect28"
-         style="fill:#000000" />
-    </clipPath>
-  </defs>
+     id="defs18" />
   <sodipodi:namedview
-     inkscape:current-layer="svg10"
+     inkscape:current-layer="svg14"
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="-8"
-     inkscape:cy="12.785566"
-     inkscape:cx="24"
-     inkscape:zoom="17.708333"
+     inkscape:cy="99.105882"
+     inkscape:cx="72"
+     inkscape:zoom="5.9027778"
      showgrid="false"
-     id="namedview12"
+     id="namedview16"
      inkscape:window-height="1017"
      inkscape:window-width="1920"
      inkscape:pageshadow="2"
@@ -60,24 +48,31 @@
      bordercolor="#666666"
      pagecolor="#ffffff" />
   <g
-     transform="matrix(1.2620951,0,0,1.2620819,-6.2837501,-6.2798214)"
-     clip-path="url(#clipPath26)"
-     id="g22">
-    <path
-       fill="#0277bd"
-       d="M 41,5 H 7 l 3,34 14,4 14,-4 z"
-       id="path2" />
-    <path
-       fill="#039be5"
-       d="M 24,8 V 39.9 L 35.2,36.7 37.7,8 Z"
-       id="path4" />
-    <path
+     transform="matrix(1.260845,0,0,1.260845,-6.5211262,-6.2334042)"
+     id="g28">
+    <polygon
+       fill="#e7a42b"
+       points="25,43 11,39 8,5 42,5 38,39 "
+       id="polygon2" />
+    <polygon
+       fill="#f2bf22"
+       points="25,8 38.63,8 35.25,36.71 25,39.86 "
+       id="polygon4" />
+    <polygon
+       fill="#faf9f8"
+       points="15.79,25 16.64,12 25,12 26,14 25,16 21.03,16 20.7,21 25,21 26,23 25,25 "
+       id="polygon6" />
+    <polygon
+       fill="#ebebeb"
+       points="25,36.72 24.94,36.74 16.61,34.36 16.05,28 20.07,28 20.35,31.27 24.9,32.57 25,32.54 26,35 "
+       id="polygon8" />
+    <polygon
        fill="#ffffff"
-       d="M 33.1,13 H 24 v 4 h 4.9 l -0.3,4 H 24 v 4 h 4.4 l -0.3,4.5 -4.1,1.4 v 4.2 L 31.9,32.5 32.6,21 v 0 z"
-       id="path6" />
-    <path
-       fill="#eeeeee"
-       d="m 24,13 v 4 h -8.9 l -0.3,-4 z m -4.6,8 0.2,4 H 24 v -4 z m 0.4,6 h -4 l 0.3,5.5 7.9,2.6 v -4.2 l -4.1,-1.4 z"
-       id="path8" />
+       points="25,32.54 28.83,31.36 29.57,25 25,25 25,21 34.07,21 32.5,34.42 25,36.72 "
+       id="polygon10" />
+    <polygon
+       fill="#ffffff"
+       points="25,16 25,12 34.13,12 34.3,13.26 34.92,18 30.93,18 30.67,16 "
+       id="polygon12" />
   </g>
 </svg>
