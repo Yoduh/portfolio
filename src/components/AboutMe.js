@@ -64,7 +64,7 @@ const AboutMe = () => {
             </MDBCol>
             <MDBCol md="6" className="p-0">
                 <Fade right>
-                    <MDBRow className="mt-3">
+                    <MDBRow className="mt-3 mx-1">
                         <h1 className="mb-2"><em>&lt;Frontend \&gt;</em></h1>
                         <p>I am a proficient <strong>React</strong> coder knowledgeable about hooks, context, state management and lifecycle methods. 
                             I like to use different React tools and libraries such as React <strong>Router</strong> and React <strong>Redux</strong>, but I don't overly rely on these tools to get what I need done.
@@ -72,7 +72,7 @@ const AboutMe = () => {
                     </MDBRow>
                 </Fade>
                 <Fade right>
-                    <MDBRow className="mt-4">
+                    <MDBRow className="mt-4 mx-1">
                         <h1 className="mb-2"><em>&lt;Backend \&gt;</em></h1>
                         <p><strong>NodeJS</strong> with <strong>Express</strong> is my preferred backend of choice. For a unified JS experience I like to use <strong>mongoDB</strong> but I also have 
                             experience with relational databases such as <strong>SQLite</strong> and <strong>PostgreSQL</strong>. I've designed multiple <strong>REST</strong> APIs and have dabbled with <strong>GraphQL</strong>.</p>
