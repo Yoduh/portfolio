@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ed4724f59675637dac5c257ddfcd575",
+    "revision": "3ba959c9452dea18b28bcc304a3582ae",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "09b81cf8cfdf4746a6bf",
+    "revision": "60b9e1807926b0c1b159",
     "url": "/portfolio/static/css/2.693a94c7.chunk.css"
   },
   {
-    "revision": "b4cc94bcec042f6423f2",
-    "url": "/portfolio/static/css/main.df7c0a40.chunk.css"
+    "revision": "ff382aa0847705c7c331",
+    "url": "/portfolio/static/css/main.05378f88.chunk.css"
   },
   {
-    "revision": "09b81cf8cfdf4746a6bf",
-    "url": "/portfolio/static/js/2.6b975f66.chunk.js"
+    "revision": "60b9e1807926b0c1b159",
+    "url": "/portfolio/static/js/2.b9274ccd.chunk.js"
   },
   {
     "revision": "91fb7d83b7bbef5952067f4889f64e5b",
-    "url": "/portfolio/static/js/2.6b975f66.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.b9274ccd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b4cc94bcec042f6423f2",
-    "url": "/portfolio/static/js/main.e077232d.chunk.js"
+    "revision": "ff382aa0847705c7c331",
+    "url": "/portfolio/static/js/main.13209b32.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f618641c78751b81086e2cd729ddb296",
     "url": "/portfolio/static/media/HTML5.f618641c.svg"
-  },
-  {
-    "revision": "09f12cfb8876f79b7635581d7fd5e272",
-    "url": "/portfolio/static/media/JS.09f12cfb.svg"
   },
   {
     "revision": "11911410dca2de148f30954eb2fd5eab",
@@ -124,8 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/headshot.19c8ac9a.png"
   },
   {
-    "revision": "f8e154e1710818583804998dfbfae0c1",
-    "url": "/portfolio/static/media/jquery.f8e154e1.svg"
+    "revision": "32e80fbbc395b26e9496da7f5c3f1456",
+    "url": "/portfolio/static/media/js.32e80fbb.svg"
   },
   {
     "revision": "7658ffb25432b6205a9594bf65a8ff16",
