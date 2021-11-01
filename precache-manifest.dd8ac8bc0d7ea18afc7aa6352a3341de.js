@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93fb53ad94cbfb04c159844a3aeda168",
+    "revision": "3ed4724f59675637dac5c257ddfcd575",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "53dfde0ed358b85ffe64",
+    "revision": "09b81cf8cfdf4746a6bf",
     "url": "/portfolio/static/css/2.693a94c7.chunk.css"
   },
   {
-    "revision": "574fe3e4ec430c00f5ed",
-    "url": "/portfolio/static/css/main.2a10c230.chunk.css"
+    "revision": "b4cc94bcec042f6423f2",
+    "url": "/portfolio/static/css/main.df7c0a40.chunk.css"
   },
   {
-    "revision": "53dfde0ed358b85ffe64",
-    "url": "/portfolio/static/js/2.7723fd03.chunk.js"
+    "revision": "09b81cf8cfdf4746a6bf",
+    "url": "/portfolio/static/js/2.6b975f66.chunk.js"
   },
   {
     "revision": "91fb7d83b7bbef5952067f4889f64e5b",
-    "url": "/portfolio/static/js/2.7723fd03.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.6b975f66.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "574fe3e4ec430c00f5ed",
-    "url": "/portfolio/static/js/main.6a810168.chunk.js"
+    "revision": "b4cc94bcec042f6423f2",
+    "url": "/portfolio/static/js/main.e077232d.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
     "url": "/portfolio/static/js/runtime-main.209c2d7e.js"
   },
   {
-    "revision": "ab04b485e3dadd9cc682f2096d509e4e",
-    "url": "/portfolio/static/media/CSS3.ab04b485.svg"
+    "revision": "62e5a12bf69a31419cae9c403113bcf8",
+    "url": "/portfolio/static/media/CSS3.62e5a12b.svg"
   },
   {
     "revision": "f618641c78751b81086e2cd729ddb296",
     "url": "/portfolio/static/media/HTML5.f618641c.svg"
   },
   {
-    "revision": "0de10b87d13e0cf0c3ecebc0961f8292",
-    "url": "/portfolio/static/media/JS.0de10b87.svg"
+    "revision": "09f12cfb8876f79b7635581d7fd5e272",
+    "url": "/portfolio/static/media/JS.09f12cfb.svg"
   },
   {
     "revision": "11911410dca2de148f30954eb2fd5eab",
@@ -162,5 +162,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee7e6621b7d3bf8ee80f6af67c71ef91",
     "url": "/portfolio/static/media/sqlite.ee7e6621.svg"
+  },
+  {
+    "revision": "9a45fc7689867939804c469bfcd17784",
+    "url": "/portfolio/static/media/vue.9a45fc76.svg"
   }
 ]);
