@@ -67,8 +67,8 @@ const AboutMe = () => {
                     <MDBRow className="mt-3 mx-1">
                         <h1 className="mb-2"><em>&lt;Frontend \&gt;</em></h1>
                         <p>I am a proficient <strong>Vue</strong> and <strong>React</strong> developer knowledgeable about reactivity, state management and lifecycle methods. 
-                            I'm familiar with a plethora of libraries including some of the most common including <strong>React Router</strong>, <strong>Vue Router</strong>, <strong>Redux</strong> and <strong>Vuex</strong>.
-                            When needed I can also get the job done in plain vanilla <strong>Javascript</strong> ES12, and I'm skilled with <strong>CSS3</strong> and <strong>HTML5</strong>.</p>
+                            I'm familiar with numerous libraries including some of the most common: <strong>React Router</strong>, <strong>Vue Router</strong>, <strong>Redux</strong> and <strong>Vuex</strong>.
+                            When needed I can also get the job done in plain vanilla <strong>JavaScript</strong> ES12, and I'm skilled with <strong>CSS3</strong> and <strong>HTML5</strong>.</p>
                     </MDBRow>
                 </Fade>
                 <Fade right>

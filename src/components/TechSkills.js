@@ -5,8 +5,7 @@ import ReactTooltip from "react-tooltip";
 
 import html from './images/icons/HTML5.svg';
 import css from './images/icons/CSS3.svg';
-import jquery from './images/icons/jquery.svg';
-import js from './images/icons/JS.svg';
+import js from './images/icons/js.svg';
 import mongodb from './images/icons/mongodb.svg';
 import nodejs from './images/icons/nodejs.svg';
 import postgresql from './images/icons/postgresql.svg';
@@ -18,8 +17,7 @@ import vue from './images/icons/vue.svg';
 const skills = [
     {image: html, tooltip: 'HTML5'},
     {image: css, tooltip: 'CSS3'},
-    {image: js, tooltip: 'JavaScript/ES6'},
-    {image: jquery, tooltip: 'jQuery'},
+    {image: js, tooltip: 'JavaScript/ES12'},
     {image: nodejs, tooltip: 'NodeJS + Express'},
     {image: react, tooltip: 'React'},
     {image: redux, tooltip: 'Redux'},
