@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {
     MDBNavbar, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link } from 'react-scroll'
 import github from './images/icons/github.svg';
 import linkedin from './images/icons/linkedin.svg';
 import resume from './images/icons/resume.png';
@@ -31,9 +31,6 @@ const Navbar = () => {
     return (
     <Router>
       <MDBNavbar id="navbar" dark expand="md" className="sticky">
-        {/* <MDBNavbarBrand>
-          <strong className="white-text">Navbar</strong>
-        </MDBNavbarBrand> */}
         <MDBNavbarToggler onClick={() => toggleCollapse()} />
         <MDBCollapse id="navbarCollapse3" isOpen={isOpen} navbar>
           <MDBNavbarNav left>

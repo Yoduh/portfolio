@@ -42,9 +42,6 @@ const Header = () => {
                 <MDBTypography tag='h3' variant="display-4" align="center">
                     <span ref={title2}/>&nbsp;
                 </MDBTypography>
-                {/* <MDBTypography tag='h3' variant="display-4" align="center">
-                    <span ref={title3}/>&nbsp;
-                </MDBTypography> */}
                 <a className="scrollDown" href="#aboutme">
                     <i className="fas fa-angle-down"></i>
                 </a>
@@ -54,14 +51,3 @@ const Header = () => {
 }
 
 export default Header;
-
-
-{/* <MDBTypography tag='h1' variant="display-2" align="center">
-    <span ref={title1}/>
-</MDBTypography>
-<MDBTypography tag='h3' variant="display-4" align="center">
-    <span ref={title2}/>
-</MDBTypography>
-<MDBTypography tag='h3' variant="display-4" align="center">
-    <span ref={title3}/>
-</MDBTypography> */}

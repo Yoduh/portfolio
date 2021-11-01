@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBContainer, MDBRow, MDBCol, MDBTypography, MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol, MDBTypography } from "mdbreact";
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 

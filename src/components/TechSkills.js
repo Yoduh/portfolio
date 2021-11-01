@@ -13,6 +13,7 @@ import postgresql from './images/icons/postgresql.svg';
 import react from './images/icons/react.svg';
 import redux from './images/icons/redux.svg';
 import sqlite from './images/icons/sqlite.svg';
+import vue from './images/icons/vue.svg';
 
 const skills = [
     {image: html, tooltip: 'HTML5'},
@@ -25,28 +26,25 @@ const skills = [
     {image: mongodb, tooltip: 'mongoDB'},
     {image: sqlite, tooltip: 'SQLite'},
     {image: postgresql, tooltip: 'PostgreSQL'},
+    {image: vue, tooltip: 'Vue'},
 ];
 
 const ConditionalSpinWrapper = ({ condition, wrapper, children }) => 
         condition ? wrapper(children) : children;
 
 const TechSkills = ({bounds}) => {
-    console.log(bounds);
-
     const insertStyleSheetRule = (ruleText) => {
+        let sheets = document.styleSheets;
+    
+        if(sheets.length === 0)
         {
-            let sheets = document.styleSheets;
-        
-            if(sheets.length == 0)
-            {
-                let style = document.createElement('style');
-                style.appendChild(document.createTextNode(""));
-                document.head.appendChild(style);
-            }
-        
-            let sheet = sheets[sheets.length - 1];
-            sheet.insertRule(ruleText, sheet.rules ? sheet.rules.length : sheet.cssRules.length);
+            let style = document.createElement('style');
+            style.appendChild(document.createTextNode(""));
+            document.head.appendChild(style);
         }
+    
+        let sheet = sheets[sheets.length - 1];
+        sheet.insertRule(ruleText, sheet.rules ? sheet.rules.length : sheet.cssRules.length);
     }
     
     const renderIcons = () => {

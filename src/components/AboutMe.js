@@ -66,16 +66,16 @@ const AboutMe = () => {
                 <Fade right>
                     <MDBRow className="mt-3 mx-1">
                         <h1 className="mb-2"><em>&lt;Frontend \&gt;</em></h1>
-                        <p>I am a proficient <strong>React</strong> coder knowledgeable about hooks, context, state management and lifecycle methods. 
-                            I like to use different React tools and libraries such as React <strong>Router</strong> and React <strong>Redux</strong>, but I don't overly rely on these tools to get what I need done.
-                            I can also code comfortably in plain vanilla <strong>Javascript</strong> with or without <strong>JQuery</strong>, and I'm skilled with <strong>CSS3</strong> and <strong>HTML5</strong>.</p>
+                        <p>I am a proficient <strong>Vue</strong> and <strong>React</strong> developer knowledgeable about reactivity, state management and lifecycle methods. 
+                            I'm familiar with a plethora of libraries including some of the most common including <strong>React Router</strong>, <strong>Vue Router</strong>, <strong>Redux</strong> and <strong>Vuex</strong>.
+                            When needed I can also get the job done in plain vanilla <strong>Javascript</strong> ES12, and I'm skilled with <strong>CSS3</strong> and <strong>HTML5</strong>.</p>
                     </MDBRow>
                 </Fade>
                 <Fade right>
                     <MDBRow className="mt-4 mx-1">
                         <h1 className="mb-2"><em>&lt;Backend \&gt;</em></h1>
-                        <p><strong>NodeJS</strong> with <strong>Express</strong> is my preferred backend of choice. For a unified JS experience I like to use <strong>mongoDB</strong> but I also have 
-                            experience with relational databases such as <strong>SQLite</strong> and <strong>PostgreSQL</strong>. I've designed multiple <strong>REST</strong> APIs and have dabbled with <strong>GraphQL</strong>.</p>
+                        <p>Most of my personal projects use <strong>NodeJS</strong> with <strong>Express</strong> and <strong>MongoDB</strong>. Professionally I've worked with <strong>.NET</strong> Core 3.1 and .NET 5.
+                            I've designed database schemas and worked with many relational databases such as <strong>SQL</strong>, <strong>SQLite</strong> and <strong>PostgreSQL</strong>. I've also designed multiple <strong>REST</strong> APIs and have dabbled with <strong>GraphQL</strong>.</p>
                     </MDBRow>
                 </Fade>
             </MDBCol>
